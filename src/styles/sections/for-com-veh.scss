@@ -1,0 +1,374 @@
+.forComVeh__body {
+    padding: 80px 0;
+    background-image: url("../../../public/assets/images/forComVeh/background.jpg");
+
+    .forComVeh__undertitle {
+        margin: 0 0 15px;
+    }
+
+    @media (max-width: 549px) {
+        .forComVeh__undertitle {
+            margin: 0 0 5px;
+        }
+    }
+
+    .title {
+        margin: 0 0 27px;
+    }
+
+    @media (min-width: 384px) and (max-width: 549px) {
+        .title {
+            margin: 0 0 16px;
+        }
+    }
+
+    hr {
+        margin: 0 0 63px;
+        width: 100%;
+        height: 1px;
+        background-color: #464E4C;
+    }
+
+    @media (max-width: 1280px) {
+        hr {
+            margin: 0 0 48px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        hr {
+            margin: 0 0 24px;
+        }
+    }
+
+    .forVehCam__oils {
+        display: flex;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .oil-card {
+            width: 49%;
+            padding: 14px 16px 20px 14px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+
+            
+            
+            &:first-child {
+                
+                .oil-card__image {
+                    background-image: url("../../../public/assets/images/forComVeh/oil_1.svg");
+                }                
+            }
+            
+            &:nth-child(2) {
+                
+                .oil-card__image {
+                    background-image: url("../../../public/assets/images/forComVeh/oil_2.jpg");
+                }
+            }
+            
+            &:nth-child(3) {
+
+                .oil-card__image {
+                    background-image: url("../../../public/assets/images/forComVeh/oil_3.jpg");
+                }
+            }
+            
+            &:last-child {
+                
+                .oil-card__image {
+                    background-image: url("../../../public/assets/images/forComVeh/oil_4.jpg");
+                }
+            }
+            
+            .oil-card__top {
+                display: flex;
+                column-gap: 1.25%;
+                align-items: flex-start;
+                margin: 0 0 18px;
+                flex-grow: 1;
+
+                .oil-card__image {
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    min-width: 35%;
+                    padding: 0 0 35%;
+                }
+                
+                @media (max-width: 1280px) {
+                    .oil-card__image {
+                        min-width: 38%;
+                        padding: 0 0 38%;
+                        float: left;
+                        margin: 0 2.58% 0 0;
+                    }
+                }
+                
+                @media (max-width: 1000px) {
+                    .oil-card__image {
+                        min-width: 34%;
+                        padding: 0 0 34%;
+                    }
+                }
+                
+                @media (min-width: 650px) and (max-width: 768px) {
+                    .oil-card__image {
+                        min-width: 39%;
+                        padding: 0 0 39%;
+                        margin: 0 3.1% 0 0;
+                    }
+                }
+
+                .oil-card__description {
+                    padding: 4px 0 0;
+                    
+                    .oil-card__title {
+                        color: blue;
+                        font-size: 2rem;
+                        font-weight: 700;
+                        line-height: 120%;
+                        margin: 0 0 16px;
+                    }
+
+                    @media (max-width: 1000px) {
+                        .oil-card__title {
+                            font-size: 1.4rem;
+                        }
+                    }
+
+                    @media (max-width: 768px) {
+                        .oil-card__title {
+                            margin: 0 0 9px;
+                        }
+                    }
+
+                    @media (min-width: 449px) and (max-width: 650px) {
+                        .oil-card__title {
+                            font-size: 1.6rem;
+                        }
+                    }
+                    
+                    .oil-card__text {
+                        font-size: 2rem;
+                        line-height: 120%;
+                        color: $graphite;
+                    }
+
+                    @media (max-width: 1280px) {
+                        .oil-card__text {
+                            font-size: 1.8rem;
+                        }
+                    }
+
+                    @media (max-width: 1000px) {
+                        .oil-card__text {
+                            font-size: 1.4rem;
+                        }
+                    }
+
+                    @media (min-width: 650px) and (max-width: 768px) {
+                        .oil-card__text {
+                            font-size: 1.1rem;
+                        }
+                    }
+
+                    @media (max-width: 449px) {
+                        .oil-card__text {
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+
+            @media (max-width: 1280px) {
+                .oil-card__top {
+                    display: block;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .oil-card__top {
+                    margin: 0 0 8px;
+                }
+            }
+
+            .oil-card__icons {
+                display: flex;
+                margin: 0 0 28px;
+                column-gap: 9px;
+                justify-content: flex-end;
+                align-items: flex-end;
+            }
+
+            @media (max-width: 449px) {
+                .oil-card__icons {
+                    margin: 0 0 20px;
+                } 
+            }
+
+            .oil-card__buttons {
+                display: flex;
+                column-gap: 24px;
+                justify-content: flex-end;
+
+                .button {
+
+                    &:first-child {
+                        min-width: 150px;
+                    }
+
+                    &:last-child {
+                        min-width: 252px;
+                    }
+
+                    @media (max-width: 1000px) {
+                        &:first-child {
+                            width: 120px;
+                        }
+    
+                        &:last-child {
+                            min-width: 220px;
+                        }
+                    }
+
+                    @media (min-width: 650px) and (max-width: 875px) {
+                        &:first-child {
+                            min-width: 100px;
+                        }
+    
+                        &:last-child {
+                            min-width: 163px;
+                        }
+                    }
+
+                    @media(max-width: 449px) {
+                        &:first-child {
+                            min-width: 75px;
+                        }
+    
+                        &:last-child {
+                            min-width: 147px;
+                        }
+                    }
+                }
+
+                @media (max-width: 1000px) {
+                    .button {
+                        font-size: 1.6rem;
+                        border-radius: 0 0 0 10px;
+                    }
+                }
+
+                @media (min-width: 650px) and (max-width: 875px) {
+                    .button {
+                        font-size: 1.2rem;
+                        border-radius: 0 0 0 10px;
+                    }
+                }
+
+                @media (max-width: 449px) {
+                    .button {
+                        font-size: 1.2rem;
+                        border-radius: 0 0 0 10px;
+                    }
+                }
+            }
+
+            @media (min-width: 650px) and (max-width: 768px) {
+                .oil-card__buttons {
+                    column-gap: 16px;
+                }
+            }
+
+            @media (max-width: 449px) {
+                .oil-card__buttons {
+                    column-gap: 16px;
+                }
+            }
+
+            &:hover {
+
+                .oil-card__buttons {
+                        
+                    .button {
+
+                        &:first-child {
+                            background-color: blue;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 1280px) {
+            .oil-card {
+                padding: 14px 5px 20px 14px;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .oil-card {
+                padding: 14px 9px 24px 14px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .oil-card {
+                padding: 8px 9px 8px 6px;
+            }
+        }
+        
+        @media (max-width: 650px) {
+            .oil-card {
+                width: 100%;
+                padding: 14px 9px 24px 14px;
+            }
+        }
+
+        @media (max-width: 449px) {
+            .oil-card {
+                padding: 8px 11px 8px 6px;
+            }
+        }
+    }
+
+    @media (max-width: 650px) {
+        .forVehCam__oils {
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 449px) {
+        .forVehCam__oils {
+            row-gap: 26px;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .forComVeh__body {
+        padding: 79px 0 48px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .forComVeh__body {
+        padding: 48px 0 64px;
+    }
+}
+
+@media (max-width: 768px) {
+    .forComVeh__body {
+        padding: 39px 0 48px;
+    }
+}
+
+@media (max-width: 650px) {
+    .forComVeh__body {
+        padding: 24px 0 28px;
+    }
+}

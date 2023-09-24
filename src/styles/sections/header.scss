@@ -1,0 +1,322 @@
+.header {
+    position: relative;
+    background: linear-gradient(180deg, rgba(70, 68, 66, 0.50) 0%, rgba(70, 68, 66, 0.00) 100%);
+    overflow-y: visible;
+    
+    .header__background {
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        top: 0;
+    }
+
+    .header__container {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+
+        .header__logo {
+            width: 112px;
+            height: 142px;
+            background-image: url("../../../public/assets/images/header/logo.jpg");
+            margin-right: 47/1280 * 100%;
+            background-size: cover;
+        }
+
+        @media (max-width: 449px) {
+            .header__logo {
+                width: 79px;
+                height: 100px;
+            }
+        }
+
+        .header__body {
+            padding-top: 19px;
+            flex-grow: 1;
+            margin-right: 59/1280 * 100%;
+
+            .header__body__top {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 19px;
+
+                .header__description {
+
+                    .header__title {
+                        font-size: 2.4rem;
+                        font-weight: 700;
+                        line-height: 29/24 * 100%;
+                        margin-bottom: 7px;
+                    }
+
+                    .header__text {
+                        font-size: 1.4rem;
+                        line-height: 17/14 * 100%;
+                    }
+                    
+                    @media (max-width: 411px) {
+                        .header__title {
+                            font-size: 2rem;
+                        }
+
+                        .header__text {
+                            font-size: 1.2rem;
+                        }
+                    }
+
+                    @media (max-width: 356px) {
+                        .header__title {
+                            font-size: 1.5rem;
+                        }
+
+                        .header__text {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+
+                .header__phone {
+                    display: flex;
+                    column-gap: 13px;
+                    align-items: center;
+
+                    .header__phone__logo {
+                        width: 16px;
+                        height: 16px;
+                        background-image: url("../../../public/assets/images/header/phone.svg");
+                    }
+                    
+                    .header__phone__text {
+                        font-size: 2rem;
+                        font-weight: 700;
+                        line-height: 24/20 * 100%;
+                    }
+
+                    @media (max-width: 853px) {
+                        .header__phone__logo {
+                            width: 14px;
+                            height: 14px;
+                        }
+
+                        .header__phone__text {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+
+            @media (max-width: 649px) {
+                .header__body__top {
+                    flex-direction: column;
+                    row-gap: 14px;
+                    align-items: flex-start;
+                }
+            }
+
+            .header__body__nav {
+
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    
+                    .navigate__link {
+                        color: white;
+                    }
+
+                    li {
+                        padding: 18px 14px;
+                        cursor: pointer;
+                        position: relative;
+
+                        span {
+                            font-size: 1.6rem;
+                            font-weight: 700;
+                            line-height: 20/16 * 100%;
+                        }
+
+                        @media (max-width: 1263px) {
+                            span {
+                                font-size: 1.4rem;
+                            }
+                        }
+
+                        @media (max-width: 1150px) {
+                            span {
+                                font-size: 1.2rem;
+                            }
+                        }
+
+                        &:hover {
+                            background-color: white;
+                            color: #5CB85C;
+                        }
+
+                        .navigate__clue {
+                            position: absolute;
+                            left: 0;
+                            width: 433px;
+                            padding: 29px 47px 33px 49px;
+                            background-color: white;
+                            border-radius: 0 0 0 50px;
+                            display: none;
+                            z-index: 1;
+                            font-size: 1.6rem;
+                            font-weight: 700;
+                            line-height: 20/16 * 100%;
+
+                            .navigate__clue__links {
+                                display: flex;
+                                justify-content: space-between;
+                                flex-wrap: wrap;
+                                column-gap: 50px;
+                                row-gap: 28px;
+                                align-items: stretch;
+                                margin-bottom: 36px;
+
+                                .navigata__clue_link {
+                                    color: $blue;
+
+                                    &:hover {
+                                        color: #5CB85C;
+                                    }
+                                }
+                            }
+
+                            .navigate__clue__image {
+                                width: 338px;
+                                height: 134px;
+                                background-image: url("../../../public/assets/images/header/clue.jpg");
+                            }
+                        }
+
+                        &:hover {
+
+                            .navigate__clue {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media (max-width: 853px) {
+                .header__body__nav {
+                    display: none;
+                }
+            }
+        }
+
+        @media (max-width: 449px) {
+            .header__body {
+                padding-top: 12px;
+            } 
+        }
+        
+        .header__right {
+            padding-top: 24px;
+
+            .header__phone-button {
+                margin-bottom: 53px;
+            }
+
+            @media (max-width: 1150px) {
+                .header__phone-button {
+                    margin-bottom: 49px;
+                }  
+            }
+
+            @media (max-width: 937px) {
+                .header__phone-button {
+                    font-size: 1.2rem;
+                }
+            }
+
+            @media (max-width: 853px) {
+                .header__phone-button {
+                    display: none;
+                }  
+            }
+
+            .header__search {
+                width: 152px;
+                height: 20px;
+                padding: 4px 0 1px 6px;
+                display: block;
+                background-color: rgba(255, 255, 255, 0);
+                border-bottom: 1px solid white;
+                outline: none;
+                font-size: 1.4rem;
+                line-height: 17/14 * 100%;
+                background-image: url("../../../public/assets/images/header/search.svg");
+                background-repeat: no-repeat;
+                background-position: 130px;
+
+                &::placeholder {
+                    color: white;
+                }
+
+                &:focus {
+                    background-color: white;
+                    color: $blue;
+                    border-radius: 5px 5px 5px 5px;
+                    background-image: url("../../../public/assets/images/header/search_hover.svg");
+
+                    &::placeholder {
+                        color: $blue;
+                    }
+                }
+            }
+
+            @media (max-width: 853px) {
+                .header__search {
+                    display: none;
+                }  
+            }
+
+            .header__burger-btn {
+                width: 16px;
+                height: 24px;
+                background-image: url("../../../public/assets/images/header/burger-btn.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+
+            @media (max-width: 649px) {
+                .header__burger-btn {
+                    width: 44px;
+                    height: 29px;
+                }
+            }
+        }
+
+        @media (max-width: 449px) {
+            .header__right {
+                padding-top: 15px;
+            }
+        }
+    }
+
+    @media (max-width: 411px) {
+       .header__container {
+           padding: 0 12px;
+       } 
+    }
+
+    .header__burger-btn {
+        width: 16px;
+        height: 24px;
+        display: none;
+    }
+
+    @media (max-width: 853px) {
+        .header__burger-btn {
+            display: block;
+        }
+    }
+}

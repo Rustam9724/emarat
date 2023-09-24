@@ -1,0 +1,93 @@
+.main__news {
+    padding: 21px 0 68px;
+    position: relative;
+
+    .main__news__arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 74px;
+        background-image: url("../../../../public/assets/images/main/carousel-arrow.svg");
+        cursor: pointer;
+
+        &.main__news__arrow_left {
+            left: 220px;
+        }
+
+        &.main__news__arrow_right {
+            transform: rotate(180deg);
+            right: 220px;
+        }
+
+        @media (max-width: 1524px) {
+            &.main__news__arrow_left {
+                left: 165px;
+            } 
+            
+            &.main__news__arrow_right {
+                right: 165px;
+            }
+        }
+
+        @media (max-width: 1399px) {
+            &.main__news__arrow_left {
+                left: 93px;
+            } 
+            
+            &.main__news__arrow_right {
+                right: 93px;
+            }
+        }
+
+    }
+
+    .main__news__container {
+
+        .main__news__title {
+            color: black;
+            margin: 0 0 4px;
+        }
+
+        hr {
+            height: 1px;
+            width: 100%;
+            background-color: #B8B8B8;
+            margin: 0 0 33px;
+        }
+
+        .main__news__body {
+            display: flex;
+            column-gap: 40px;
+            overflow: hidden;
+
+            .main__news__item {
+                transition: all 0.5s ease-in;
+
+                &.main__news__item_moved {
+                    margin-left: -102.5%;
+                }
+
+                @media (max-width: 1799px) {
+                    &.main__news__item_moved {
+                        margin-left: -102.5%;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 1799px) {
+            .main__news__body {
+                width: 75%;
+                margin: 0 auto;
+                column-gap: 30px;
+            } 
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .main__news {
+        display: none;
+    }
+}

@@ -1,0 +1,331 @@
+.vacancies__header {
+    height: 260px;
+    color: white;
+
+    .vacancies__header__background {
+        background-image: url("../../../public/assets/images/vacancies/header_1920.jpg");
+        
+        @media (max-width: 1280px) {
+            background-image: url("../../../public/assets/images/vacancies/header_1280.jpg");
+        }
+
+        @media (max-width: 1000px) {
+            background-image: url("../../../public/assets/images/vacancies/header_1000.jpg");
+        }
+
+        @media (max-width: 768px) {
+            background-image: url("../../../public/assets/images/vacancies/header_768.jpg");
+        }
+
+        @media (max-width: 480px) {
+            background-image: url("../../../public/assets/images/vacancies/header_480.jpg");
+        }
+
+        @media (max-width: 360px) {
+            background-image: url("../../../public/assets/images/vacancies/header_360.jpg");
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .vacancies__header {
+        height: 180px;
+    }
+}
+
+@media (max-width: 360px) {
+    .vacancies__header {
+        height: 140px;
+    }
+}
+
+.vacancies__main {
+    padding: 80px 0 64px;
+    background-image: url("../../../public/assets/images/vacancies/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .vacncies__undertitle {
+        margin: 0 0 15px;
+    }
+
+    @media (max-width: 481px) {
+        .vacncies__undertitle {
+            margin: 0 0 5px;
+        }
+    }
+
+    .vacancies__title-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0 0 21px;
+
+        .vacancies__title {}
+
+        @media (max-width: 768px) {
+            .vacancies__title {
+                font-size: 4.8rem;
+            } 
+        }
+
+        @media (max-width: 480px) {
+            .vacancies__title {
+                font-size: 3.6rem;
+            } 
+        }
+
+        @media (max-width: 360px) {
+            .vacancies__title {
+                font-size: 2.8rem;
+            } 
+        }
+
+        .vacancies__subtitle {
+            max-width: 42%;
+            color: #464E4C;
+            font-size: 2rem;
+            line-height: 120%;
+        }
+
+        @media (max-width: 1280px) {
+            .vacancies__subtitle {
+                max-width: 39%;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .vacancies__subtitle {
+                max-width: 48%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .vacancies__subtitle {
+                font-size: 1.1rem;
+                max-width: 28%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .vacancies__subtitle {
+                font-size: 1.4rem;
+                max-width: 70%;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .vacancies__subtitle {
+                font-size: 1.2rem;
+                max-width: 83%;
+            }
+        }
+
+    }
+
+    @media (max-width: 1280px) {
+        .vacancies__title-block {
+            margin: 0 0 26px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .vacancies__title-block {
+            margin: 0 0 13px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .vacancies__title-block {
+            flex-direction: column;
+            row-gap: 2px;
+        }
+    }
+
+    hr {
+        width: 100%;
+        height: 1px;
+        background-color: #464E4C;
+        margin: 0 0 50px;
+    }
+
+    @media (min-width: 769px) and (max-width: 1000px) {
+        hr {
+            margin: 0 0 70px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        hr {
+            margin: 0 0 36px;
+        }
+    }
+
+    .vacancies__main__body {
+        display: flex;
+        justify-content: space-between;
+        row-gap: 64px;
+        flex-wrap: wrap;
+        cursor: pointer;
+        margin: 0 0 45px;
+        align-self: stretch;
+
+        .vacancies__item {
+            display: flex;
+            flex-direction: column;
+            padding: 40px 3.7% 42px;
+            width: 49%;
+            background-color: white;
+            border-radius: 0px 0px 0px 55px;
+
+            .vacancies__item__title {
+                color: #004290;
+                font-size: 3.6rem;
+                font-weight: 700;
+                line-height: 41/36 * 100%;
+                margin: 0 0 23px;
+            }
+
+            @media (max-width: 360px) {
+                .vacancies__item__title {
+                    font-size: 2.8rem;
+                    margin: 0 0 17px;
+                }
+            }
+
+            .vacancies__item__employment {
+                color: #464E4C;
+                font-size: 2rem;
+                font-weight: 300;
+                line-height: 180%;
+                margin: 0 0 16px;
+                padding: 0 0 0 53px;
+                background: url("../../../public/assets/images/vacancies/bag.svg") no-repeat left center;
+            }
+
+            @media (max-width: 768px) {
+                .vacancies__item__employment {
+                    align-self: flex-start;
+                }
+            }
+
+            .vacancies__item__text-block {
+                flex-grow: 1;
+                margin: 0 0 30px;
+            }
+
+            @media (max-width: 360px) {
+                .vacancies__item__text-block {
+                    margin: 0 0 24px;
+                }
+            }
+
+            .vacancies__item__text {
+                color: #464E4C;
+                font-size: 2rem;
+                line-height: 120%;
+
+                &:not(:last-child) {
+                    margin: 0 0 2rem;
+                }
+            }
+
+            @media (max-width: 360px) {
+                .vacancies__item__text {
+                    font-size: 1.8rem;
+    
+                    &:not(:last-child) {
+                        margin: 0 0 1.8rem;
+                    }
+                } 
+            }
+
+            .vacancies__item__button {
+                width: 267px;
+            }
+
+            &:hover {
+                outline: 1px solid #5CB85C;
+
+                .vacancies__item__button {
+                    background-color: $blue;
+                }
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .vacancies__item {
+                padding: 20px 2% 36px;
+                border-radius: 0 0 0 50px;
+            }  
+        }
+
+        @media (max-width: 768px) {
+            .vacancies__item {
+                width: 100%;
+                padding: 40px 19px 42px;
+                border-radius: 0;
+                align-items: center;
+            }  
+        }
+
+        @media (max-width: 480px) {
+            .vacancies__item {
+                padding: 20px 18px 36px 10px;
+            }  
+        }
+
+        @media (max-width: 360px) {
+            .vacancies__item {
+                padding: 20px 18px 20px;
+            }  
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .vacancies__main__body {
+            row-gap: 32px;
+            margin: 0 0 32px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .vacancies__main__body {
+            width: 79%;
+            flex-direction: column;
+            row-gap: 48px;
+            margin: 0 auto 48px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .vacancies__main__body {
+            width: 100%;
+            row-gap: 36px;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .vacancies__main {
+        padding: 48px 0 64px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .vacancies__main {
+        padding: 26px 0 32px;
+    }
+}
+
+@media (max-width: 769px) {
+    .vacancies__main {
+        padding: 39px 0 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    .vacancies__main {
+        padding: 24px 0 48px;
+    }
+}

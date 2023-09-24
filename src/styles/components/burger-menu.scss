@@ -1,0 +1,83 @@
+.burger-menu {
+    position: absolute;
+    right: -100%;
+    top: 0;
+    width: 668px;
+    z-index: 1;
+    padding: 90px 50px 325px;
+    background-color: #F0F3F8;
+
+    .burger-menu__burger-close {
+        margin-bottom: 72px;
+    }
+
+    .burger-menu__nav {
+        
+        ul {
+            
+            .burger-menu__link {
+
+                & > * {
+                    display: block;
+                    padding: 36px 66px 34px 48px;
+                    background-color: white;
+                    color: #3174AF;
+                    font-size: 3.8rem;
+                    font-weight: 300;
+                    line-height: 42/38 * 100%;
+                    background-image: url("../../../public/assets/images/header/burger-arrow.svg");
+                    background-repeat: no-repeat;
+                    background-position: 88% center;
+
+                    @media (max-width: 524px) {
+                            font-size: 2.2rem;
+                    }
+                }
+                
+                &:last-child {
+
+                    & > * {
+
+                        border-radius: 0 0 0 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 668px) {
+    .burger-menu {
+        width: 100%;
+    }
+}
+
+@media (max-width: 624px) {
+    .burger-menu {
+        padding: 90px 21px 325px;
+    }
+}
+
+.burger-close {
+    color: #3174AF;
+    font-size: 3.8rem;
+    line-height: 42/38 * 100%;
+    margin-left: auto;
+    width: 183px;
+    background: url("../../../public/assets/images/header/cross.svg") no-repeat right center;
+    cursor: pointer;
+}
+
+@media (max-width: 474px) {
+    .burger-close {
+        width: 137px;
+        font-size: 2.9rem;
+    }
+}
+
+@media (max-width: 399px) {
+    .burger-close {
+        width: 115px;
+        font-size: 2.2rem;
+    }
+}

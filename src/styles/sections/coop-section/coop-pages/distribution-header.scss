@@ -1,0 +1,40 @@
+.distribution__header {
+    height: 260px;
+    color: white;
+
+    .distribution__header__background { 
+        background-image: url("../../../../../public/assets/images/cooperation/distribution-header_1920.jpg");
+
+        @media (max-width: 1280px) {
+            background-image: url("../../../../../public/assets/images/cooperation/distribution-header_1280.jpg");
+        }
+        
+        @media (max-width: 1000px) {
+            background-image: url("../../../../../public/assets/images/cooperation/distribution-header_1000.jpg");
+        }
+        
+        @media (max-width: 768px) {
+            background-image: url("../../../../../public/assets/images/cooperation/distribution-header_768.jpg");
+        }
+        
+        @media (max-width: 480px) {
+            background-image: url("../../../../../public/assets/images/cooperation/distribution-header_480.jpg");
+        }
+        
+        @media (max-width: 360px) {
+            background-image: url("../../../../../public/assets/images/cooperation/distribution-header_360.jpg");
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .distribution__header {
+        height: 180px;
+    }
+}
+
+@media (max-width: 360px) {
+    .coop-section__header {
+        height: 140px;
+    }
+}

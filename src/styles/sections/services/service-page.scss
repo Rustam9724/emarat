@@ -1,0 +1,335 @@
+.service-page__main {
+    padding: 80px 0 84px;
+    background-image: url("../../../../public/assets/images/services/background.jpg.jpg");
+
+    .service-page__undertitle { 
+        margin: 0 0 15px;
+    }
+
+    @media (min-width: 420px) and (max-width: 622px) {
+        .service-page__undertitle { 
+            margin: 0 0 5px;
+        }
+    }
+
+    .service-page__title-block {
+        display: flex;
+        align-items: center;
+        column-gap: 616px;
+        margin: 0 0 27px;
+
+        .service-page__title {}
+
+        @media (max-width: 1000px) {
+            .service-page__title {
+                font-size: 4.8rem;
+            } 
+        }
+
+        @media (max-width: 622px) {
+            .service-page__title {
+                font-size: 3.6rem;
+            } 
+        }
+
+        @media (max-width: 474px) {
+            .service-page__title {
+                font-size: 2.8rem;
+            } 
+        }
+
+        .service-page__title-button {
+            width: 180px;
+        }
+
+        @media (max-width: 622px) {
+            .service-page__title-button {
+                width: 140px;
+                font-size: 1.6rem;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .service-page__title-button {
+                width: 120px;
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    @media (max-width: 1280px) {
+        .service-page__title-block {
+            column-gap: 44%;
+        }
+    }
+
+    @media (max-width: 840px) {
+        .service-page__title-block {
+            column-gap: 23%;
+            margin: 0 0 16px;
+        }
+    }
+
+    @media (max-width: 622px) {
+        .service-page__title-block {
+            column-gap: 22%;
+            margin: 0 0 28px;
+        }
+    }
+
+    @media (max-width: 420px) {
+        .service-page__title-block {
+            column-gap: 11%;
+        }
+    }
+
+    hr {
+        width: 100%;
+        height: 1px;
+        background-color: #B8B8B8;
+        margin: 0 0 30px;
+    }
+
+    @media (max-width: 1280px) {
+        hr {
+            margin: 0 0 37px;
+        }
+    }
+
+    @media (min-width: 623px) and (max-width: 840px) {
+        hr {
+            margin: 0 0 18px;
+        }
+    }
+
+    @media (min-width: 421px) and (max-width: 622px) {
+        hr {
+            margin: 0 0 30px;
+        }
+    }
+
+    .service-page__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0 0 26px;
+
+        .service-page__text-block {
+            max-width: 48%;
+            color: #464E4C;
+            font-size: 2rem;
+            line-height: 120%;
+
+            .service-page__text {
+
+                &:not(:last-child) {
+                    margin-bottom: 24px;
+                }
+
+                @media (min-width: 841px) and (max-width: 1000px) {
+                    &:not(:last-child) {
+                        margin-bottom: 22px;
+                    }  
+                }
+
+                @media (min-width: 623px) and (max-width: 840px) {
+                    &:not(:last-child) {
+                        margin-bottom: 16px;
+                    }  
+                }
+
+                @media (max-width: 420px) {
+                    &:not(:last-child) {
+                        margin-bottom: 19px;
+                    } 
+                }
+
+                &.service-page__text_check-mark {
+                    text-indent: 16px;
+                    background: url("../../../../public/assets/images/services/text-check-mark.svg") no-repeat left 5px;
+                }
+
+                @media (max-width: 1000px) {
+                    &.service-page__text_check-mark {
+                        background-position: left 2px;
+                    }
+                }
+
+                @media (min-width: 623px) and (max-width: 840px) {
+                    &.service-page__text_check-mark {
+                        background-position: left top;
+                    }
+                }
+
+                @media (min-width: 421px) and (max-width: 622px) {
+                    &.service-page__text_check-mark {
+                        background-position: left 5px;
+                    }
+                }
+
+                &.service-page__text_point {
+                    text-indent: 12px;
+                    background: url("../../../../public/assets/images/services/point.svg") no-repeat left 10px;
+                }
+
+                @media (max-width: 1000px) {
+                    &.service-page__text_point {
+                        background-position: left 7px;
+                    }
+                }
+
+                @media (max-width: 840px) {
+                    &.service-page__text_point {
+                        background-position: left 6px;
+                    }
+                }
+
+                @media (max-width: 622px) {
+                    &.service-page__text_point {
+                        background-position: left 10px;
+                    }
+                }
+
+                @media (max-width: 420px) {
+                    &.service-page__text_point {
+                        background-position: left 8px;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .service-page__text-block {
+                font-size: 1.6rem;
+            }
+        }
+
+        @media (max-width: 840px) {
+            .service-page__text-block {
+                font-size: 1.3rem;
+                max-width: 56%;
+            }
+        }
+
+        @media (max-width: 622px) {
+            .service-page__text-block {
+                font-size: 2rem;
+                max-width: 93%;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .service-page__text-block {
+                font-size: 1.6rem;
+            }
+        }
+
+        .service-page__image {
+            display: block;
+            width: 48%;
+            aspect-ratio: 578/432;
+            border-radius: 0 0 70px 0;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 1000px) {
+            .service-page__image {
+                aspect-ratio: 429/321;
+            }  
+        }
+
+        @media (max-width: 840px) {
+            .service-page__image {
+                width: 43%;
+                aspect-ratio: 309/231;
+                border-radius: 0 0 25px 0;
+                margin-top: 29px;
+            }  
+        }
+
+        @media (max-width: 622px) {
+            .service-page__image {
+                width: 78%;
+                aspect-ratio: 358/268;
+                margin-top: 0;
+            }  
+        }
+
+        @media (max-width: 420px) {
+            .service-page__image {
+                width: 100%;
+                aspect-ratio: 312/234;
+                border-radius: 0 0 14px 0;
+            }  
+        }
+    }
+
+    @media (max-width: 1280px) {
+        .service-page__content {
+            margin: 0 0 32px;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .service-page__content {
+            margin: 0 0 38px;
+        }
+    }
+
+    @media (min-width: 623px) and (max-width: 840px) {
+        .service-page__content {
+            margin: 0 0 20px;
+        }
+    }
+
+    @media (max-width: 622px) {
+        .service-page__content {
+            margin: 0 0 26px;
+            flex-direction: column-reverse;
+            align-items: center;
+            row-gap: 28px;
+        }
+    }
+
+    @media (max-width: 420px) {
+        .service-page__content {
+            margin: 0 0 38px;
+            row-gap: 24px;
+        }
+    }
+
+    .service-page__button {
+        width: 260px;
+    }
+
+    @media (max-width: 840px) {
+        .service-page__button {
+            width: 240px;
+        }
+    }
+
+    @media (max-width: 622px) {
+        .service-page__button {
+            width: 220px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .service-page__main {
+        padding: 49px 0 48px;
+    }
+}
+
+@media (max-width: 840px) {
+    .service-page__main {
+        padding: 39px 0 48px;
+    }
+}
+
+@media (max-width: 622px) {
+    .service-page__main {
+        padding: 24px 0 44px;
+    }
+}

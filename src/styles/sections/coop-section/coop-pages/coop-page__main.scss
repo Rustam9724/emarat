@@ -1,0 +1,261 @@
+.coop-page__main {
+    padding: 80px 0 86px;
+    background-image: url("../../../../../public/assets/images/cooperation/background.jpg");
+
+    .coop-page__main__info {
+
+        .coop-page__undertitle {
+            margin: 0 0 15px;
+        }
+
+        @media (max-width: 768px) {
+            .coop-page__undertitle {
+                margin: 0 0 7px;
+            }
+        }
+
+        .coop-page__title {
+                margin: 0 0 27px;
+        }
+
+        @media (max-width: 624px) {
+            .coop-page__title {
+                margin: 0 0 14px;
+            }
+        }
+
+        hr {
+            width: 100%;
+            height: 1px;
+            background-color: #B8B8B8;
+            margin: 0 0 60px;
+        }
+
+        @media (max-width: 1280px) {
+            hr {
+                margin: 0 0 80px;
+            }
+        }
+
+        @media (max-width: 1280px) {
+            hr {
+                margin: 0 0 70px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            hr {
+                margin: 0 0 36px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            hr {
+                margin: 0 0 46px;
+            }
+        }
+
+        @media (max-width: 360px) {
+            hr {
+                margin: 0 0 36px;
+            }
+        }
+
+        .coop-page__body {
+            display: flex;
+            margin: 0 0 80px;
+            
+            .coop-page__image {
+                max-width: 47%;
+                aspect-ratio: 578/432;
+                border-radius: 0 0 0 70px;
+            }
+
+            @media (max-width: 1280px) {
+                .coop-page__image {
+                    border-radius: 0 0 0 45px;
+                }
+            }
+
+            @media (max-width: 1000px) {
+                .coop-page__image {
+                    max-width: 52%;
+                    aspect-ratio: 460/380;
+                    border-radius: 0 0 0 35px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .coop-page__image {
+                    max-width: 44%;
+                    aspect-ratio: 306/316;
+                    border-radius: 0 0 0 25px;
+                }
+            }
+
+            @media (max-width: 774px) {
+                .coop-page__image {
+                    max-width: 100%;
+                    aspect-ratio: 400/180;
+                    border-radius: 0;
+                }
+            }
+
+            @media (max-width: 360px) {
+                .coop-page__image {
+                    aspect-ratio: 328/140;
+                }
+            }
+
+            .coop-page__body__right {
+                margin: 20px 0 0;
+
+                .coop-page__text-block {
+                    padding: 30px 35px 13px;
+                    background-color: white;
+                    margin: 0 0 82px;
+
+                   .coop-page__text {
+
+                        &:not(:last-child) {
+                            margin: 0 0 38px;
+                        }
+
+                        @media (max-width: 1000px) {
+                            &:not(:last-child) {
+                                margin: 0 0 34px;
+                            } 
+                        }
+
+                        @media (max-width: 768px) {
+                            &:not(:last-child) {
+                                margin: 0 0 30px;
+                            } 
+                        }
+                   }
+
+                   @media (max-width: 1000px) {
+                        .coop-page__text {
+                            font-size: 1.8rem;
+                        }
+                   }
+
+                   @media (max-width: 768px) {
+                        .coop-page__text {
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+
+                @media (max-width: 1280px) {
+                    .coop-page__text-block {
+                        padding: 48px 24px 52px;
+                        margin: 0 0 48px;
+                    }
+                }
+
+                @media (max-width: 1000px) {
+                    .coop-page__text-block {
+                        padding: 26px 24px 20px;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .coop-page__text-block {
+                        padding: 22px 14px;
+                    }
+                }
+
+                @media (max-width: 774px) {
+                    .coop-page__text-block {
+                        padding: 26px 22px;
+                        margin: 0;
+                    }
+                }
+
+                @media (max-width: 360px) {
+                    .coop-page__text-block {
+                        padding: 26px 16px 20px;
+                    }
+                }
+
+                .coop-page__body__button {
+                    width: 180px;
+                    margin: 0 0 0 70px;
+                }
+
+                @media (max-width: 774px) {
+                    .coop-page__body__button {
+                        margin: 0 auto;
+                    }
+                }
+            }
+
+            @media (max-width: 1280px) {
+                .coop-page__body__right {
+                    margin: 45px 0 0;
+                }
+            }
+
+            @media (max-width: 1000px) {
+                .coop-page__body__right {
+                    margin: 27px 0 0;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .coop-page__body__right {
+                    margin: 10px 0 0;
+                }
+            }
+
+            @media (max-width: 774px) {
+                .coop-page__body__right {
+                    margin: 0;
+                    background-color: white;
+                    padding: 0 0 17px;
+                }
+            }
+        }
+
+        @media (max-width: 774px) {
+            .coop-page__body {
+                flex-direction: column;
+                align-items: center;
+                width: 91%;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .coop-page__body {
+                width: 97%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .coop-page__main {
+        padding: 49px 0 68px;
+    }
+} 
+
+@media (max-width: 768px) {
+    .coop-page__main {
+        padding: 39px 0 60px;
+    }
+} 
+
+@media (max-width: 774px) {
+    .coop-page__main {
+        padding: 24px 0 30px;
+    }
+} 
+
+@media (max-width: 360px) {
+    .coop-page__main {
+        padding: 24px 0;
+    }
+}

@@ -1,0 +1,40 @@
+.purchase__header {
+    height: 260px;
+    color: white;
+
+    .purchase__header__background { 
+        background-image: url("../../../../../public/assets/images/cooperation/purchase-header__1920.jpg");
+
+        @media (max-width: 1280px) {
+            background-image: url("../../../../../public/assets/images/cooperation/purchase-header__1280.jpg");
+        }
+        
+        @media (max-width: 1000px) {
+            background-image: url("../../../../../public/assets/images/cooperation/purchase-header__1000.jpg");
+        }
+        
+        @media (max-width: 768px) {
+            background-image: url("../../../../../public/assets/images/cooperation/purchase-header__768.jpg");
+        }
+        
+        @media (max-width: 480px) {
+            background-image: url("../../../../../public/assets/images/cooperation/purchase-header__480.jpg");
+        }
+        
+        @media (max-width: 360px) {
+            background-image: url("../../../../../public/assets/images/cooperation/purchase-header__360.jpg");
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .purchase__header {
+        height: 180px;
+    }
+}
+
+@media (max-width: 360px) {
+    .coop-section__header {
+        height: 140px;
+    }
+}

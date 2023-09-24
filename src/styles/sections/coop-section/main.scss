@@ -1,0 +1,59 @@
+.coop-section__main {
+    padding: 80px 0;
+    background-image: url("../../../../public/assets/images/cooperation/background.jpg");
+
+    .coop-section__undertitle {
+        margin: 0 0 16px;
+    }
+
+    .coop-section__title {
+        margin: 0 0 35px;
+    }
+
+    @media (max-width: 1280px) {
+        .coop-section__title {
+            margin: 0 0 27px;
+        }  
+    }
+
+    .coop-section__item {
+
+        .coop-section__item__image {
+            width: 48%;
+            aspect-ratio: 662/387;
+        }
+        
+        @media (max-width: 480px) {
+            .coop-section__item__image {
+                width: unset;
+                aspect-ratio: 400/180;
+            }
+        }
+        
+        .coop-section__item__body {
+            padding: 28px 18.5px 65px;
+            width: 52%;
+    
+            .coop-section__item__title {
+            }
+    
+            .coop-section__item__text {
+                text-align: left;
+    
+                &:not(:last-child) {
+                    margin: 0 0 35px;
+                }
+            }
+    
+            .coop-section__item__footnote {
+            }
+        }
+
+        @media (max-width: 480px) {
+            .coop-section__item__body {
+                width: unset;
+            }
+        }
+    }
+}
+
