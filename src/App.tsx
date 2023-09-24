@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className='wrapper'>
-      <Router basename="/">
+      <Router basename="/emarat">
         <Routes>
           <Route path="/" element={<Main />}/>
           <Route path="/catalog" element={<Catalog />}/>
