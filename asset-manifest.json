@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/emarat/static/css/main.7df62738.css",
-    "main.js": "/emarat/static/js/main.115ca1f4.js",
+    "main.js": "/emarat/static/js/main.789ba76f.js",
     "static/media/background_1920.jpg": "/emarat/static/media/background_1920.92e1dce5c4e31de55409.jpg",
     "static/media/background.jpg": "/emarat/static/media/background.2733770b33c510aa4db0.jpg",
     "static/media/header-background_1920.jpg": "/emarat/static/media/header-background_1920.dfa1d238d41f2367a20f.jpg",
@@ -92,10 +92,10 @@
     "static/media/oil_1.svg": "/emarat/static/media/oil_1.207c3e60f5296c964074.svg",
     "static/media/point.svg": "/emarat/static/media/point.0a07526a5497630d6eb8.svg",
     "main.7df62738.css.map": "/emarat/static/css/main.7df62738.css.map",
-    "main.115ca1f4.js.map": "/emarat/static/js/main.115ca1f4.js.map"
+    "main.789ba76f.js.map": "/emarat/static/js/main.789ba76f.js.map"
   },
   "entrypoints": [
     "static/css/main.7df62738.css",
-    "static/js/main.115ca1f4.js"
+    "static/js/main.789ba76f.js"
   ]
 }
