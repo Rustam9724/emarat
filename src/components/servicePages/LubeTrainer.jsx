@@ -33,7 +33,7 @@ export default function LubeTrainer() {
                             <p className="service-page__text">Результат:</p>
                             <p className="service-page__text service-page__text_point">повышение технической готовности оборудования при сокращении затрат на обслуживание при применении смазочных материалов Emarat</p>
                         </div>
-                        <img className="service-page__image" src="/assets/images/services/LubeTrainer.jpg" alt=""/>
+                        <img className="service-page__image" src="../assets/images/services/LubeTrainer.jpg" alt=""/>
                     </div>
                     <div className="service-page__button button" onClick={() => popupSwitcher('form-open')}>Свяжитесь с нами</div>
                 </div>

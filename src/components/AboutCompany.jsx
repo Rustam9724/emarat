@@ -20,7 +20,6 @@ export default function AboutCompany() {
                     </div>
                     <h2 className="about-cmp__title title">О компании Emarat</h2>
                     <div className="about-cmp__info">
-                        {/* <img className="about-cmp__image" src="/assets/images/about-company/office.jpg" alt=""/> */}
                         <div className="about-cmp__image"></div>
                         <div className="about-cmp__info__right">
                             <div className="about-cmp__text-block">

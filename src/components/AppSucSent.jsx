@@ -7,13 +7,13 @@ export default function AppSucSent() {
     return (
         <div className="app-suc-sent-wrapper">
             <div className='app-suc-sent'>
-                <img 
+                <div 
                     className="app-suc-sent__cross"
-                    src="/assets/images/app-suc-sent/cross.svg" 
-                    alt="" 
+                    // src="/assets/images/app-suc-sent/cross.svg" 
+                    // alt="" 
                     onClick={() => popupSwitcher('close')}
                 />
-                <img className="app-suc-sent__check-mark" src="/assets/images/app-suc-sent/check-mark.jpg" alt=""/>
+                <div className="app-suc-sent__check-mark"/>
                 <h2 className="app-suc-sect__title title">Заявка успешно отправлена</h2>
                 <p className="app-suc-sent__text">Менеджер уже получил контактные данные и свяжется с Вами в самое ближайшее время</p>
             </div>

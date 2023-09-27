@@ -28,7 +28,7 @@ export default function VideoCheck() {
                         <div className="service-page__text-block">
                             <p className="service-page__text">Эндоскопическое исследование состояния ДВС.</p>
                         </div>
-                        <img className="service-page__image" src="/assets/images/services/Video-Check.jpg" alt=""/>
+                        <img className="service-page__image" src="../assets/images/services/Video-Check.jpg" alt=""/>
                     </div>
                     <div className="service-page__button button" onClick={() => popupSwitcher('form-open')}>Свяжитесь с нами</div>
                 </div>

@@ -20,7 +20,7 @@ export default function Purchase() {
                         <h2 className="coop-page__title title">Закупка смазочных материалов</h2>
                         <hr />
                         <div className="coop-page__main__info__body coop-page__body">
-                            <img className="coop-page__image" src="/assets/images/cooperation/purchase.jpg" alt=""/>
+                            <img className="coop-page__image" src="../assets/images/cooperation/purchase.jpg" alt=""/>
                             <div className="coop-page__body__right">
                                 <div className="coop-page__text-block">
                                     <p className="coop-page__text text">Компания ”Гольфстрим Сервис Д” предлагает высококачественные смазочные материалы Emarat в соответствии с потребностями российского рынка. Наши партнеры - компании из различных секторов бизнеса, а также физические лица.</p>

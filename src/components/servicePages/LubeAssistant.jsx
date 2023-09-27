@@ -34,7 +34,7 @@ export default function LubeAssistant() {
                             <p className="service-page__text service-page__text_point">повышение эффективности производственных процессов, связанных с использованием смазочных материалов на оборудовании или в вашем автопарке</p>
                             <p className="service-page__text service-page__text_point">продуктивная корректировка межсервисных интервалов вашего автопарка, как результат точной проработки всех процессов, связанных с применением смазочных материалов.</p>
                         </div>
-                        <img className="service-page__image" src="/assets/images/services/LubeAssistant.jpg" alt=""/>
+                        <img className="service-page__image" src="../assets/images/services/LubeAssistant.jpg" alt=""/>
                     </div>
                     <div className="service-page__button button" onClick={() => popupSwitcher('form-open')}>Свяжитесь с нами</div>
                 </div>

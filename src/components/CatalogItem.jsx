@@ -37,7 +37,7 @@ export default function CatalogItem() {
                             </p>
                         </div>
                         <div className="catalog-item__image _ibg">
-                            <img src="/assets/images/catalog-item/oils.jpg" alt="" />
+                            <img src="../assets/images/catalog-item/oils.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ export default function CatalogItem() {
                         <div className="cooperation-block__body">
                             <Link className="cooperation-block__item" to="/catalog/catalog-item/for-commercial-vehicles" onClick={scrollingToTop}>
                                 <div className="cooperation-block__item__image _ibg">
-                                    <img src="/assets/images/catalog-item/car_1.jpg" alt="" />
+                                    <img src="../assets/images/catalog-item/car_1.jpg" alt="" />
                                 </div>
                                 <div className="cooperation-block__item__body">
                                     <h3 className="cooperation-block__item__title">Для коммерческой техники</h3>
@@ -61,7 +61,7 @@ export default function CatalogItem() {
                             </Link>
                             <Link className="cooperation-block__item" to="/catalog/catalog-item/for-commercial-vehicles" onClick={scrollingToTop}>
                                 <div className="cooperation-block__item__image _ibg">
-                                    <img src="/assets/images/catalog-item/car_2.jpg" alt="" />
+                                    <img src="../assets/images/catalog-item/car_2.jpg" alt="" />
                                 </div>
                                 <div className="cooperation-block__item__body">
                                     <h3 className="cooperation-block__item__title">Для легковой техники</h3>

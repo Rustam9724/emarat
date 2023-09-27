@@ -20,7 +20,7 @@ export default function Distribution() {
                         <h2 className="coop-page__title title">Дистрибуция смазочных материалов</h2>
                         <hr />
                         <div className="coop-page__main__info__body coop-page__body">
-                            <img className="coop-page__image" src="/assets/images/cooperation/distribution.jpg" alt=""/>
+                            <img className="coop-page__image" src="../assets/images/cooperation/distribution.jpg" alt=""/>
                             <div className="coop-page__body__right">
                                 <div className="coop-page__text-block">
                                     <p className="coop-page__text text">Компания ”Гольфстрим Сервис Д” предлагает Вам возможности долгосрочного сотрудничества в области дистрибуции смазочных материалов Emarat на территории Российской Федерации и готова предложить индивидуальные условия в соответствии с вашим запросом.</p>

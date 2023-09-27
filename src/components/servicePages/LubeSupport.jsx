@@ -31,7 +31,7 @@ export default function LubeSupport() {
                             <p className="service-page__text service-page__text_check-mark">подготовим индивидуальные рекомендации по мощностям вашего автопарка, необходимых для проведения испытания</p>
                             <p className="service-page__text service-page__text_check-mark">по результатам испытаний разработаем аналитический отчет с рекомендациями по дальнейшему эффективному применению смазочных материалов Emarat</p>
                         </div>
-                        <img className="service-page__image" src="/assets/images/services/LubeSupport.jpg" alt=""/>
+                        <img className="service-page__image" src="../assets/images/services/LubeSupport.jpg" alt=""/>
                     </div>
                     <div className="service-page__button button" onClick={() => popupSwitcher('form-open')}>Свяжитесь с нами</div>
                 </div>
