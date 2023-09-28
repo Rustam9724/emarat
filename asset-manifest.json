@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/emarat/static/css/main.1bec481e.css",
-    "main.js": "/emarat/static/js/main.9a7532c6.js",
+    "main.css": "/emarat/static/css/main.8fa2e4b6.css",
+    "main.js": "/emarat/static/js/main.acefa0fd.js",
     "static/media/background_1920.jpg": "/emarat/static/media/background_1920.92e1dce5c4e31de55409.jpg",
     "static/media/background.jpg": "/emarat/static/media/background.2733770b33c510aa4db0.jpg",
     "static/media/header-background_1920.jpg": "/emarat/static/media/header-background_1920.dfa1d238d41f2367a20f.jpg",
@@ -59,7 +59,6 @@
     "static/media/image_480.jpg": "/emarat/static/media/image_480.7d4205a253df1f268a59.jpg",
     "static/media/distribution-header_480.jpg": "/emarat/static/media/distribution-header_480.c2296777403fd0b11bf3.jpg",
     "static/media/about-company-header_360.jpg": "/emarat/static/media/about-company-header_360.5619d4d7ecf1ff0e78dd.jpg",
-    "static/media/news-header_360.jpg": "/emarat/static/media/news-header_360.817e73279592cf10c0d6.jpg",
     "static/media/mission-header_360.jpg": "/emarat/static/media/mission-header_360.9901f87b08dac2a69300.jpg",
     "static/media/clue.jpg": "/emarat/static/media/clue.dfb796a48b82efb9476c.jpg",
     "static/media/purchase-header__480.jpg": "/emarat/static/media/purchase-header__480.f683e7d2aa8d09674e37.jpg",
@@ -92,11 +91,11 @@
     "static/media/select-arrow.svg": "/emarat/static/media/select-arrow.d22816e4297e2005c029.svg",
     "static/media/oil_1.svg": "/emarat/static/media/oil_1.207c3e60f5296c964074.svg",
     "static/media/point.svg": "/emarat/static/media/point.0a07526a5497630d6eb8.svg",
-    "main.1bec481e.css.map": "/emarat/static/css/main.1bec481e.css.map",
-    "main.9a7532c6.js.map": "/emarat/static/js/main.9a7532c6.js.map"
+    "main.8fa2e4b6.css.map": "/emarat/static/css/main.8fa2e4b6.css.map",
+    "main.acefa0fd.js.map": "/emarat/static/js/main.acefa0fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bec481e.css",
-    "static/js/main.9a7532c6.js"
+    "static/css/main.8fa2e4b6.css",
+    "static/js/main.acefa0fd.js"
   ]
 }
