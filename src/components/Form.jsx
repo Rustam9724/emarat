@@ -53,7 +53,7 @@ export default function Form() {
                                     <input type="file" name="file" id="input-file" className="input-file" onInput={event => inputHandler(event)}/>
                                     <label className="add-file-block__label" htmlFor="input-file">
                                         <span className="add-file-block__button-text text">Выберите файл</span>
-                                        <span className="add-file-block__icon-wrapper"><img className="add-file-block__icon" src="/assets/images/form/paperclip.svg"/></span>
+                                        <span className="add-file-block__icon-wrapper"><img className="add-file-block__icon" src="./assets/images/form/paperclip.svg"/></span>
                                     </label>
                                     <p className="add-file-block__summary-name">{summary}</p>
                                 </div>

@@ -37,14 +37,14 @@ export default function NewsPage() {
                         </div>
                     </div>
                     <div className="news-page__main__images">
-                        <img className="news-page__image_second" src="/assets/images/news/second.jpg" alt=""/>
-                        <img className="news-page__image_second" src="/assets/images/news/second.jpg" alt=""/>
-                        <img className="news-page__image_second" src="/assets/images/news/second.jpg" alt=""/>
-                        <img className="news-page__image_second" src="/assets/images/news/second.jpg" alt=""/>
-                        <img className="news-page__image_second" src="/assets/images/news/second.jpg" alt=""/>
-                        <img className="news-page__image_second" src="/assets/images/news/second.jpg" alt=""/>
-                        <img className="news-page__image_second" src="/assets/images/news/second.jpg" alt=""/>
-                        <img className="news-page__image_second" src="/assets/images/news/second.jpg" alt=""/>
+                        <img className="news-page__image_second" src="../assets/images/news/second.jpg" alt=""/>
+                        <img className="news-page__image_second" src="../assets/images/news/second.jpg" alt=""/>
+                        <img className="news-page__image_second" src="../assets/images/news/second.jpg" alt=""/>
+                        <img className="news-page__image_second" src="../assets/images/news/second.jpg" alt=""/>
+                        <img className="news-page__image_second" src="../assets/images/news/second.jpg" alt=""/>
+                        <img className="news-page__image_second" src="../assets/images/news/second.jpg" alt=""/>
+                        <img className="news-page__image_second" src="../assets/images/news/second.jpg" alt=""/>
+                        <img className="news-page__image_second" src="../assets/images/news/second.jpg" alt=""/>
                     </div>
                     <h2 className="news-page__title news-page__title_secondary title">Прорыв в промышленности смазочных материалов</h2>
                     <div className="news-page__video">

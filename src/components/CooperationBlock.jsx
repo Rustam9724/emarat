@@ -12,7 +12,7 @@ export default function CooperationBlock() {
                         <div className="cooperation-block__body">
                             <Link className="cooperation-block__item" to="/cooperation/purchase" onClick={scrollingToTop}>
                                 <div className="cooperation-block__item__image _ibg">
-                                    <img src="../assets/images/main/cooperation_1.jpg" alt="" />
+                                    <img src="./assets/images/main/cooperation_1.jpg" alt="" />
                                 </div>
                                 <div className="cooperation-block__item__body">
                                     <h3 className="cooperation-block__item__title">Закупка смазочных материалов</h3>
@@ -25,7 +25,7 @@ export default function CooperationBlock() {
                             </Link>
                             <Link className="cooperation-block__item" to="/cooperation/distribution" onClick={scrollingToTop}>
                                 <div className="cooperation-block__item__image _ibg">
-                                    <img src="../assets/images/main/cooperation_2.jpg" alt="" />
+                                    <img src="./assets/images/main/cooperation_2.jpg" alt="" />
                                 </div>
                                 <div className="cooperation-block__item__body">
                                     <h3 className="cooperation-block__item__title">Дистрибуция смазочных материалов</h3>

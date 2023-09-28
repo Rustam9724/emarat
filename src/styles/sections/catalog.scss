@@ -1,29 +1,35 @@
 .catalog__header {
-    height: 260px;
     color: white;
-
-    .catalog__header__background { 
         background-image: url("../../../public/assets/images/header/background-catalog_1920.jpg");
+}
 
-        @media (max-width: 1280px) {
-            background-image: url("../../../public/assets/images/header/background-catalog_1280.jpg");
-        }
-        
-        @media (max-width: 1000px) {
-            background-image: url("../../../public/assets/images/header/background-catalog_1000.jpg");
-        }
-        
-        @media (max-width: 768px) {
-            background-image: url("../../../public/assets/images/header/background-catalog_768.jpg");
-        }
-        
-        @media (max-width: 480px) {
-            background-image: url("../../../public/assets/images/header/background-catalog_480.jpg");
-        }
-        
-        @media (max-width: 360px) {
-            background-image: url("../../../public/assets/images/header/background-catalog_360.jpg");
-        }
+@media (max-width: 1280px) {
+    .catalog__header {
+        background-image: url("../../../public/assets/images/header/background-catalog_1280.jpg");
+    }
+}
+
+@media (max-width: 1000px) {
+    .catalog__header {
+        background-image: url("../../../public/assets/images/header/background-catalog_1000.jpg");
+    }
+}
+
+@media (max-width: 768px) {
+    .catalog__header {
+        background-image: url("../../../public/assets/images/header/background-catalog_768.jpg");
+    }
+}
+
+@media (max-width: 480px) {
+    .catalog__header {
+        background-image: url("../../../public/assets/images/header/background-catalog_480.jpg");
+    }
+}
+
+@media (max-width: 360px) {
+    .catalog__header {
+        background-image: url("../../../public/assets/images/header/background-catalog_360.jpg");
     }
 }
 

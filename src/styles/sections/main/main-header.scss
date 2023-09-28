@@ -1,58 +1,39 @@
 .main__header {
-    height: 683px;
     color: white;
-
-    .main__header__background {
-        background-image: url("../../../../public/assets/images/header/background_1920.jpg");
-
-        @media (max-width: 1280px) {
-            background-image: url("../../../../public/assets/images/header/background_1280.jpg");
-        }
-    
-        @media (max-width: 1000px) {
-            background-image: url("../../../../public/assets/images/header/background_1000.jpg");
-        }
-    
-        @media (max-width: 768px) {
-            background-image: url("../../../../public/assets/images/header/background_768.jpg");
-        }
-    
-        @media (max-width: 480px) {
-            background-image: url("../../../../public/assets/images/header/background_480.jpg");
-        }
-    
-        @media (max-width: 360px) {
-            background-image: url("../../../../public/assets/images/header/background_360.jpg");
-        }
-    }
+    background-image: url("../../../../public/assets/images/header/background_1920.jpg");
+    padding: 0 0 531px;
 }
 
 @media (max-width: 1280px) {
     .main__header {
-        height: 484px;
+        background-image: url("../../../../public/assets/images/header/background_1280.jpg");
+        padding: 0 0 342px;
     }
 }
 
 @media (max-width: 1000px) {
     .main__header {
-        height: 400px;
+        background-image: url("../../../../public/assets/images/header/background_1000.jpg");
+        padding: 0 0 258px;
     }
 }
 
 @media (max-width: 768px) {
     .main__header {
-        height: 368px;
+        background-image: url("../../../../public/assets/images/header/background_768.jpg");   
     }
 }
 
 @media (max-width: 480px) {
     .main__header {
-        height: 360px;
+        background-image: url("../../../../public/assets/images/header/background_480.jpg"); 
+        padding: 0 0 239px;
     }
 }
 
 @media (max-width: 360px) {
     .main__header {
-        height: 300px;
+        background-image: url("../../../../public/assets/images/header/background_360.jpg");
+        padding: 0 0 200px;
     }
 }
